@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <linux/can.h>
+#include <sys/epoll.h>
 
 class SocketCANInterface
 {
