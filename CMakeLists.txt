@@ -38,4 +38,7 @@ ament_export_targets(export_${PROJECT_NAME})  # Match export name above
 ament_export_include_directories(include)
 ament_export_libraries(socketcan_interface)
 
+# Install Python modules
+ament_python_install_package(caddy_ai2_ros2_common)
+
 ament_package()
